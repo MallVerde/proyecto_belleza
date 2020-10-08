@@ -1,0 +1,169 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+/* ESTILOS PARA LA CABECERA */
+#cabecera {
+    width: 100%;
+    background-color: #F4F4F4;
+    font-family: arial;
+}
+/* Estilos para los elementos de la mitad superior del header */
+#cabecera .cabecera-top{
+    width: 90%;
+    margin:auto;
+    display: flex;
+    flex-flow: wrap row;
+    align-items: center;
+}
+
+.logo{    
+    flex-grow: 1;
+    font-family: 'Courgette', cursive;
+    font-size: 2em;
+}
+
+#cabecera .cabecera-top .cabecera-usuario {    
+    flex-grow: 4;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+#cabecera .cabecera-top .cabecera-usuario input[type="search"]{
+    border-radius: 3px;
+    height: 30px;
+    border-style: none;
+    border: 1px solid grey;
+    width: 300px;
+    padding-left: 0.5em;
+}
+
+#cabecera .cabecera-top .cabecera-usuario a{
+    display: block;
+    padding: 20px 0px 20px 20px;
+    color: black;
+    text-decoration: none;
+}
+/* Estilos para los elementos de la mitad inferior del header */
+#cabecera .cabecera-bottom{
+    padding-bottom: 1em;
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    display: flex;
+}
+
+#cabecera .cabecera-bottom a{
+    display: block;
+    padding: 4px 20px 4px 0px;
+    text-decoration: none;
+    color: black;
+}
+
+/* ESTILOS PARA EL MAIN */
+#principal{
+    width: 100%;
+}
+
+
+/* ESTILOS PIE DE PAGINA */
+#pie{
+    padding: 3em 0em 1em 0em;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    background-color: rgb(24, 24, 24);
+}
+
+/* Estilos para los elementos de la parte superior del pie de pagina */
+
+#pie .pie-top, .pie-bottom{
+    width: 90%;
+    margin: auto;
+    display: flex;
+}
+
+#pie .pie-top{
+    padding-bottom: 2em;
+}
+
+#pie .pie-top .pie-logo{
+    flex-grow: 1;
+}
+
+#pie .pie-redes{
+    flex-grow: 4;
+    display: flex;
+    justify-content: flex-end;
+}
+
+#pie .pie-redes div{
+    margin-left: 1em;
+}
+
+#pie .pie-redes div h3{
+    font-size: 15px;
+}
+
+#pie .pie-redes div ul {
+    list-style: none;
+}
+
+#pie .pie-redes div ul li{
+    list-style: none;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+#pie .pie-redes div .pie-listaServicio li, a{
+    text-decoration: none;
+    color:white;
+    font-size: 14px;
+}
+
+
+#pie .pie-redes div .pie-listaRedes{
+    display: flex;
+}
+
+#pie .pie-redes div .pie-listaRedes li a{
+    display: block;
+    padding-right: 1em;
+    font-size: 20px;
+    color: white;
+}
+
+/* Estilos para la mitan inferior del pie de pagina */
+#pie .pie-bottom .pie-derechos{
+    flex-grow: 1;
+    font-size: 14px;
+}
+
+#pie .pie-bottom .pie-politicas{
+    flex-grow: 4;
+    display: flex;
+    justify-content: flex-end;
+}
+
+#pie .pie-bottom .pie-politicas ul{
+    display: flex;
+    list-style: none;
+}
+
+#pie .pie-bottom .pie-politicas ul li a{
+    display: block;
+    padding: 0 0 0 1em;
+    text-decoration: none;
+    color: white;
+    font-family: arial;
+    font-size: 13px;
+}
+
+
+
+
+
